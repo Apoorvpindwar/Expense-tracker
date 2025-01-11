@@ -29,4 +29,5 @@ expenseForm.addEventListener('submit', function (event) {
     expenseList.appendChild(newRow);
 
     // Clear form fields after submission
+    expenseForm.reset();
 });
